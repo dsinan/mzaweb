@@ -13,7 +13,7 @@
         <!-- Application Resources -->
         <j2se version="1.7+"
               href="http://java.sun.com/products/autodl/j2se"/>
-        <jar href="eimza/eimza.jar" main="true" />
+        <jar href="eimza/eimza1.jar" main="true" />
 		<jar href="eimza/eimza_lib/akiscif-2.5.4.jar" />
 		<jar href="eimza/eimza_lib/asn1rt-6.6.4.jar" />
 		<jar href="eimza/eimza_lib/axis-1.4.jar" />
