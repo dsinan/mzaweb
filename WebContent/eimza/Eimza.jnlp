@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/WebTest">
+    <information>
+        <title>Sinya A.Ş. e-İmza Uygulaması</title>
+        <vendor>Sinya A.Ş.</vendor>
+    </information>
+	<security>
+	   <all-permissions/>
+	</security>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="eimza.jar" main="true" />
+		<jar href="eimza_lib/akiscif-2.5.4.jar" />
+		<jar href="eimza_lib/asn1rt-6.6.4.jar" />
+		<jar href="eimza_lib/axis-1.4.jar" />
+		<jar href="eimza_lib/ccid-1.1.5.jar" />
+		<jar href="eimza_lib/commons-discovery-0.2.jar" />
+		<jar href="eimza_lib/commons-logging-1.1.1.jar" />
+		<jar href="eimza_lib/hamcrest-core-1.3.jar" />
+		<jar href="eimza_lib/itextpdf-5.5.11.jar" />
+		<jar href="eimza_lib/jaxrpc-api-1.1.jar" />
+		<jar href="eimza_lib/jcifs-1.2.19.jar" />
+		<jar href="eimza_lib/jna-4.2.1.jar" />
+		<jar href="eimza_lib/junit-4.11.jar" />
+		
+		<jar href="eimza_lib/slf4j-api-1.6.6.jar" />
+		<jar href="eimza_lib/slf4j-jdk14-1.6.6.jar" />
+		<jar href="eimza_lib/sqlite-jdbc-3.7.2.jar" />
+		<jar href="eimza_lib/wsdl4j-1.6.2.jar" />
+		
+		<extension name="other" href="eimza/ESYA_API.jnlp"/>
+		
+    </resources>
+    <application-desc
+         name="Sinya A.Ş. e-İmza Uygulaması"
+         main-class=
+           "tr.com.sinya.Eimza"
+         width="300"
+         height="300">
+     </application-desc>
+     <update check="background"/>
+</jnlp> 
